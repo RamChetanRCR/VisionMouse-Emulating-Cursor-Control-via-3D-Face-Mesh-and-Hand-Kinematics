@@ -1,0 +1,11 @@
+# Virtual environment
+myenv_clean/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+
+# Mac
+.DS_Store
