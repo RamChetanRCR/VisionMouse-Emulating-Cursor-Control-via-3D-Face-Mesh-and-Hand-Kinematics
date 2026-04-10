@@ -37,8 +37,11 @@ jobs:
         run: |
           iscc installer.iss
           
-      - name: Upload Setup Artifact
-        uses: actions/upload-artifact@v4
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
         with:
-          name: EyeHandTracker-Windows-Installer
-          path: Output/EyeHandTracker_Setup.exe
+          tag_name: "v4.0"
+          name: "Latest Windows Installer"
+          files: Output/EyeHandTracker_Setup.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
