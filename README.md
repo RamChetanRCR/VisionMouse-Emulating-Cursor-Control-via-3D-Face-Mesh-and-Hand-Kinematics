@@ -1,10 +1,3 @@
-python3.10 -m venv venv
-
-source venv/bin/activate
-
-pip3 install -r requirement.txt
-
-
 # VisionMouse 🖱️👁️🤚
 
 A hands-free cursor control system that emulates full mouse functionality 
