@@ -34,7 +34,6 @@ right-click using hand gestures or eye blinks.
 | 👌 Pinch (thumb + index) | Double Click |
 | ✋ Open hand (back) | Scroll Up |
 | ✊ Fist | Scroll Down |
-| 🖐 Open palm (facing cam) | Scroll Up |
 
 ### 👁️ Eye Gestures
 | Gesture | Action |
